@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0b132b;
+  color: #fff;
+}
+
+.start-screen,
+.app {
+  background: #3a506b;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+select, button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+#category-select {
+  width: 80%;
+  background: #1c2541;
+  color: #fff;
+}
+
+#start-btn, #next-btn {
+  background: #1f7a8c;
+  color: #fff;
+}
+
+.quiz {
+  padding: 20px 0;
+}
+
+#timer {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #f2b632;
+}
+
+.btn {
+  background: #fff;
+  color: #1f1f1f;
+  border: 1px solid #ddd;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+  background: #1f7a8c;
+  color: #fff;
+}
+
+.correct {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.incorrect {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Trivia Quiz App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Start Screen -->
+  <div class="start-screen" id="start-screen">
+    <h1>Choose Quiz Category</h1>
+    <select id="category-select">
+      <option value="9">General Knowledge</option>
+      <option value="21">Sports</option>
+      <option value="23">History</option>
+      <option value="17">Science & Nature</option>
+      <option value="22">Geography</option>
+    </select>
+    <button id="start-btn">Start Quiz</button>
+  </div>
+
+  <!-- Quiz Section -->
+  <div class="app" id="quiz-container" style="display: none;">
+    <h1>Trivia Quiz</h1>
+    <div class="quiz">
+      <h2 id="question">Question</h2>
+      <div id="timer">Time left: 10s</div>
+      <div id="answer-buttons"></div>
+    </div>
+    <button id="next-btn">Next</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
